@@ -2,8 +2,9 @@
 O Projeto Prático da disciplina Programação Web Front-end refere-se ao desenvolvimento de uma aplicação web, utilizando os conhecimentos práticos abordados durante a disciplina
 
 ## Alunos:
-Pedro Henrique da Rocha,
+    Pedro Henrique da Rocha         R.A.:
 
-Stefano Calheiros Stringhini,
+    Stefano Calheiros Stringhini    R.A.: 2312123 
 
-Victor Ribeiro Calado.
+    Victor Ribeiro Calado           R.A.:
+    
