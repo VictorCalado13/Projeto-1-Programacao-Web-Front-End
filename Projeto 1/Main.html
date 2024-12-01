@@ -3,7 +3,7 @@
  
  Alunos:
 
-    Pedro Henrique da Rocha         R.A.:
+    Pedro Henrique da Rocha         R.A.: 2346575
     Stefano Calheiros Stringhini    R.A.: 2312123 
     Victor Ribeiro Calado           R.A.: 2313553
 
@@ -15,7 +15,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css" type="text/css">
     <title>Projeto 1 - Programação Web Front-End </title>
+    <link rel="stylesheet" href="./styles/home.css">
 
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Cabeçalho -->
@@ -32,26 +38,102 @@
 
     <!-- Conteúdo Principal -->
     <main>
-        <section>
+        <section class="section-initial">
             <h2>Bem-vindo ao Portal dos Oceanos</h2>
             <p>Nosso objetivo é conscientizar sobre a preservação dos oceanos e promover práticas sustentáveis. De acordo com a ODS 14 </p>
         </section>
+
+        <section class="section-tips">
+            <div class="section-tips-description">
+                <h3>Dicas para proteger os oceanos:</h3>
+                <ul>
+                    <li>Evite plásticos descartáveis.</li>
+                    <li>Participe de mutirões de limpeza de praias.</li>
+                    <li>Consuma frutos do mar de forma sustentável.</li>
+                </ul>
+            </div>
+            <div class="section-tips-image">
+                <div>
+                    <img src="src/clean.jpg" alt="Mulher limpando a praia">
+                    <img src="src/group-fish.jpg" alt="Cardume de peixes">
+                </div>
+                <div>
+                    <img src="src/fishing.jpg" alt="homens pescando em um barco">
+                    <img src="src/ray-underwater.jpg" alt="foto de uma raia no oceano">
+                </div>
+            </div>            
+        </section>
+
+        <section class="section-on-ods-14">
+            <div class="section-on-ods-14-image">
+                <img src="./src//ods.png" alt="Imagem da ODS 14">
+            </div>
+            <div class="section-on-ods-14-description">
+                <h2>O que é a ODS 14?</h2>
+                <p>
+                    A ODS 14 (Objetivo de Desenvolvimento Sustentável 14) faz parte da Agenda 2030 da ONU e busca conservar e 
+                    usar de forma sustentável os oceanos, mares e recursos marinhos para o desenvolvimento sustentável.
+                </p>
+                <p>
+                    Esse objetivo é crucial para combater a poluição dos oceanos, proteger os ecossistemas marinhos e assegurar 
+                    o uso responsável dos recursos marinhos. Preservar a vida na água é essencial para a biodiversidade e para 
+                    comunidades costeiras que dependem do mar.
+                </p>
+            </div>
+        </section>
+
         <section>
-            <h3>Dicas para proteger os oceanos:</h3>
+            <h3>Problemas enfrentados pelos oceanos:</h3>
             <ul>
-                <li>Evite plásticos descartáveis.</li>
-                <li>Participe de mutirões de limpeza de praias.</li>
-                <li>Consuma frutos do mar de forma sustentável.</li>
+                <li>Mais de 8 milhões de toneladas de plástico vão parar nos oceanos todos os anos.</li>
+                <li>A acidificação dos oceanos, causada pelas mudanças climáticas, ameaça a vida marinha.</li>
+                <li>A pesca predatória leva ao declínio de espécies importantes para o equilíbrio do ecossistema.</li>
             </ul>
         </section>
+
+        <section>
+            <h3>Como você pode ajudar?</h3>
+            <ol>
+                <li>
+                    <strong>Reduza o uso de plástico:</strong> Substitua sacolas, garrafas e canudos descartáveis por alternativas reutilizáveis.
+                </li>
+                <li>
+                    <strong>Informe-se:</strong> Busque saber a origem dos frutos do mar que consome e prefira opções sustentáveis.
+                </li>
+                <li>
+                    <strong>Eduque outras pessoas:</strong> Espalhe a conscientização sobre a importância da preservação dos oceanos.
+                </li>
+                <li>
+                    <strong>Participe de iniciativas locais:</strong> Apoie ou organize eventos de limpeza de praias e áreas costeiras.
+                </li>
+            </ol>
+        </section>
+
+        <section>
+            <h3>Metas da ODS 14</h3>
+            <p>Algumas das metas principais incluem:</p>
+            <ul>
+                <li>Até 2025, prevenir e reduzir significativamente a poluição marinha de todos os tipos.</li>
+                <li>Até 2030, aumentar os benefícios econômicos para os pequenos Estados insulares em desenvolvimento e países menos desenvolvidos por meio da gestão sustentável dos recursos marinhos.</li>
+                <li>Conservar pelo menos 10% das áreas costeiras e marinhas.</li>
+            </ul>
+        </section>
+
         <section>
             <h3>Iniciativas que apoiamos:</h3>
             <a href="https://www.greenpeace.org/brasil" target="_blank">
-                <img src="Greenpeace.jpg" " width="150" height="150">
+                <img src="src/Greenpeace.jpg" width="150" height="150">
             </a>
             <a href="https://www.wwf.org.br" target="_blank">
-                <img src="WWF.jpg" width="150" height="150">
+                <img src="src/WWF.jpg" width="150" height="150">
             </a>
+        </section>
+
+        <section>
+            <h3>Citação Inspiradora</h3>
+            <blockquote>
+                "Sem água limpa, não pode haver vida. Conservar nossos oceanos e mares é uma obrigação para o futuro do planeta." - Ban Ki-moon
+            </blockquote>
         </section>
     </main>
 
