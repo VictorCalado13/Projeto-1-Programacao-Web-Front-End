@@ -447,10 +447,10 @@ footer {
     background-color: #0077b6;
     padding: 40px;
     text-align: center;
+    color: white;
 }
 
-footer a{
+footer a {
     color: white;
     text-decoration: none;
-
 }
