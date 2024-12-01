@@ -94,8 +94,9 @@ header nav ul li a:hover {
     font-size: 60px;
 }
 
-.section-tips {
+/* section-tips */
 
+.section-tips {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,6 +130,8 @@ header nav ul li a:hover {
     max-width: 100%;
 }
 
+/* section-on-ods-14 */
+
 .section-on-ods-14 {
     padding: 40px;
     background-color: #1f97d4;
@@ -159,4 +162,211 @@ header nav ul li a:hover {
 
 .section-on-ods-14-description p {
     width: 70%;
+}
+
+/* section-problems */
+
+.section-problems {
+    background-color: rgb(243, 243, 243);
+    padding: 100px 60px
+}
+
+.section-problems h3 {
+    font-size: 36px;
+    text-align: center;
+    color: #01507a;
+}
+
+.section-problems > div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 25px;
+   margin-bottom: 50px;
+}
+
+/*card-problems-plastic*/
+
+.section-problems-plastic {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-problems-plastic {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-image: url(../src/plastic.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-problems-plastic::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    transition: background-color 0.3s ease; 
+    z-index: 1;
+}
+
+.section-problems-plastic:hover::before {
+    background-color: rgba(0, 0, 0, 0.0); 
+}
+
+.section-problems-plastic:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.section-problems-plastic p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+
+.section-problems-plastic:hover p {
+    opacity: 1; 
+}
+
+/*card-ocean-acidification*/
+
+.section-problems-ocean-acidification {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-problems-ocean-acidification {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-image: url(../src/coral-bleaching.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-problems-ocean-acidification::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    transition: background-color 0.3s ease; 
+    z-index: 1;
+}
+
+
+.section-problems-ocean-acidification:hover::before {
+    background-color: rgba(0, 0, 0, 0.0); 
+}
+
+.section-problems-ocean-acidification:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.section-problems-ocean-acidification p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+
+.section-problems-ocean-acidification:hover p {
+    opacity: 1; 
+}
+
+/*cards-predatory-fishing*/
+
+.section-problems-predatory-fishing {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-problems-predatory-fishing {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-image: url(../src/predatory-fishing.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-problems-predatory-fishing::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    transition: background-color 0.3s ease; 
+    z-index: 1;
+}
+
+
+.section-problems-predatory-fishing:hover::before {
+    background-color: rgba(0, 0, 0, 0.0); 
+}
+
+.section-problems-predatory-fishing:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.section-problems-predatory-fishing p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+
+.section-problems-predatory-fishing:hover p {
+    opacity: 1; 
 }
